@@ -36,7 +36,7 @@ Format:
 
 predicted_index → labels[predicted_index]
 
-- Files Included
+# Files Included
 plant_disease_model_fp16.tflite ( 16 bit quantized )
 plant_disease_model.tflite ( 32 bit quantized )
 labels.txt
