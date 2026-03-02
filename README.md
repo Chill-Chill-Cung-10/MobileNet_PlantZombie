@@ -23,8 +23,6 @@ Task: Image classification (plant disease detection)
 
 # Labels Mapping
 
-File đi kèm:
-
 labels.txt
 
 Format:
@@ -34,6 +32,13 @@ Format:
 2 Apple___Cedar_apple_rust
 ...
 
-Map:
+- Map:
 
 predicted_index → labels[predicted_index]
+
+- Files Included
+plant_disease_model_fp16.tflite ( 16 bit quantized )
+plant_disease_model.tflite ( 32 bit quantized )
+labels.txt
+README.md
+best_model.keras (for retraining only)
