@@ -20,3 +20,20 @@ Task: Image classification (plant disease detection)
 
   # Getting results
   val predictedClass = outputArray[0].indices.maxBy { outputArray[0][it] }
+
+# Labels Mapping
+
+File đi kèm:
+
+labels.txt
+
+Format:
+
+0 Apple___Apple_scab
+1 Apple___Black_rot
+2 Apple___Cedar_apple_rust
+...
+
+Map:
+
+predicted_index → labels[predicted_index]
